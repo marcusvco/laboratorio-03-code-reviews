@@ -93,32 +93,53 @@ As questões foram divididas em duas dimensões principais:
 ---
 
 ### 🔹 RQ03: Descrição × Feedback Final
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ03](./img/RQ03.png)   
 
 | Métrica                | Mediana (Aprovados) | Mediana (Rejeitados) |
 |-------------------------|----------------------|-----------------------|
-| Nº caracteres descrição |                      |                       |
+| Nº caracteres descrição |          591         |          527          |
 
 ---
 
 ### 🔹 RQ04: Interações × Feedback Final
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ04](./img/RQ04.png)  
 
 | Métrica        | Mediana (Aprovados) | Mediana (Rejeitados) |
 |----------------|----------------------|-----------------------|
-| Comentários    |                      |                       |
-| Participantes  |                      |                       |
+| Comentários    |          1           |           3           |
+| Participantes  |          3           |           3           |
 
 ---
 
+
+Explicação: 
+
+Coeficiente de Correlação (rho): Este número varia de -1 a 1.
+
+0.0 a 0.2: Muito fraca
+
+0.2 a 0.4: Fraca
+
+0.4 a 0.6: Moderada
+
+0.6 a 0.8: Forte
+
+0.8 a 1.0: Muito forte
+
+P-valor (p-value): Este é o seu teste estatístico. Ele indica se a sua correlação encontrada é "real" ou se poderia ter acontecido por mero acaso.
+
+Se p-valor < 0.05: A correlação é estatisticamente significante. Você pode confiar que a relação que você encontrou nos seus dados provavelmente existe de verdade.
+
+Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A relação que você observou provavelmente aconteceu por acaso, e você não pode afirmar que ela exista.
+
 ### 🔹 RQ05: Tamanho × Nº de Revisões
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ05](./img/RQ05.png)   
 
 | Métrica   | Correlação | Teste Estatístico |
 |-----------|------------|-------------------|
-| Arquivos  |            |                   |
-| Linhas +  |            |                   |
-| Linhas -  |            |                   |
+| Arquivos  |   0.2848   |   P-valor = 0.0000 /  É estatisticamente relevante            |
+| Linhas +  |   0.3296   |   P-valor = 0.0000 /  É estatisticamente relevante            |
+| Linhas -  |   0.1963   |   P-valor = 0.0000 /  É estatisticamente relevante            |
 
 ---
 
@@ -127,7 +148,7 @@ As questões foram divididas em duas dimensões principais:
 
 | Métrica       | Correlação | Teste Estatístico |
 |---------------|------------|-------------------|
-| Tempo (horas) |            |                   |
+| Tempo (horas) |   0.2186   |   P-valor = 0.0000 /  É estatisticamente relevante            |
 
 ---
 
@@ -136,7 +157,7 @@ As questões foram divididas em duas dimensões principais:
 
 | Métrica                | Correlação | Teste Estatístico |
 |-------------------------|------------|-------------------|
-| Nº caracteres descrição |            |                   |
+| Nº caracteres descrição |   0.1543   |   P-valor = 0.0000 /  É estatisticamente relevante            |
 
 ---
 
@@ -145,8 +166,8 @@ As questões foram divididas em duas dimensões principais:
 
 | Métrica       | Correlação | Teste Estatístico |
 |---------------|------------|-------------------|
-| Comentários   |            |                   |
-| Participantes |            |                   |
+| Comentários   |    0.3139        |   P-valor = 0.0000 /  É estatisticamente relevante            |
+| Participantes |    0.4652        |   P-valor = 0.0000 /  É estatisticamente relevante            |
 
 ---
 
