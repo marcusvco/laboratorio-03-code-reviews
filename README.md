@@ -207,9 +207,3 @@ Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A rela
 
 ---
 
-## 🎯 Conclusão
-- Resumo das principais descobertas.  
-- Implicações para práticas de code review.  
-- Possíveis trabalhos futuros (ex.: análise em outras linguagens, mais métricas).  
-
----
