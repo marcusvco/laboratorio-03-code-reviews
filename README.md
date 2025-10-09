@@ -171,8 +171,39 @@ Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A rela
 
 ---
 
-## 🗣️ Discussão (a preencher)
-> Nesta seção serão comparadas as hipóteses com os resultados obtidos, analisando se houve confirmação ou divergência.  
+## 🗣️ Discussão
+
+### RQ01: Tamanho dos PRs × Feedback Final
+- **Hipótese:** PRs maiores teriam maior chance de rejeição.  
+- **Resultado:** Hipótese refutada. PRs aprovados apresentaram medianas de arquivos, linhas adicionadas e removidas maiores que PRs rejeitados. Isso sugere que mudanças muito pequenas podem ser mais propensas à rejeição, enquanto contribuições um pouco mais substanciais têm maior chance de aprovação.
+
+### RQ02: Tempo de Análise × Feedback Final
+- **Hipótese:** PRs analisados rapidamente seriam aceitos.  
+- **Resultado:** Hipótese confirmada. A mediana de tempo para PRs rejeitados foi 44.7 horas, mais de 10 vezes a mediana dos aprovados (3.9 horas), indicando que longos períodos de análise estão associados a rejeições.
+
+### RQ03: Descrição × Feedback Final
+- **Hipótese:** Descrições detalhadas aumentam a chance de aprovação.  
+- **Resultado:** Hipótese confirmada. PRs aprovados tiveram mediana de 591 caracteres na descrição, superior aos 527 dos rejeitados, mostrando que uma comunicação clara auxilia na aceitação.
+
+### RQ04: Interações × Feedback Final
+- **Hipótese:** Mais interações aumentariam a chance de aprovação.  
+- **Resultado:** Hipótese parcialmente refutada. O número de participantes foi igual (3), e PRs rejeitados tiveram mais comentários (3 vs 1), indicando que muitos comentários podem sinalizar problemas ou discordâncias, e não necessariamente colaboração positiva.
+
+### RQ05: Tamanho × Nº de Revisões
+- **Hipótese:** PRs maiores exigiriam mais revisões.  
+- **Resultado:** Hipótese confirmada. Correlação positiva fraca, mas significativa (rho entre 0.196 e 0.330), mostrando que mudanças maiores passam por mais ciclos de revisão.
+
+### RQ06: Tempo de Análise × Nº de Revisões
+- **Hipótese:** Maior tempo de análise se correlaciona com mais revisões.  
+- **Resultado:** Hipótese confirmada. Correlação positiva fraca (rho = 0.2186) e significativa indica que PRs com maior duração tendem a acumular mais revisões.
+
+### RQ07: Descrição × Nº de Revisões
+- **Hipótese:** Descrições detalhadas demandariam menos revisões.  
+- **Resultado:** Hipótese refutada. Correlação positiva muito fraca (rho = 0.1543), mas significativa, sugere que descrições longas estão ligadas a mudanças mais complexas, que naturalmente requerem mais revisões.
+
+### RQ08: Interações × Nº de Revisões
+- **Hipótese:** Mais interações exigiriam mais revisões.  
+- **Resultado:** Hipótese confirmada. Correlação positiva significativa, sendo a correlação com participantes a mais forte do estudo (rho = 0.4652), mostrando que maior atenção de múltiplos revisores aumenta o número de ciclos de revisão.
 
 ---
 
