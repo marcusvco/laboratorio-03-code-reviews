@@ -111,26 +111,28 @@ As questões foram divididas em duas dimensões principais:
 
 ---
 
+### ℹ️ Explicação dos Coeficientes de Correlação
 
-Explicação: 
+O **coeficiente de correlação (ρ)** varia de **-1 a 1** e indica a força e direção da relação entre duas variáveis:
 
-Coeficiente de Correlação (rho): Este número varia de -1 a 1.
+| Valor de ρ          | Interpretação                  |
+|--------------------|--------------------------------|
+| 0.0 a 0.2          | Muito fraca                     |
+| 0.2 a 0.4          | Fraca                            |
+| 0.4 a 0.6          | Moderada                         |
+| 0.6 a 0.8          | Forte                            |
+| 0.8 a 1.0          | Muito forte                      |
 
-0.0 a 0.2: Muito fraca
+O **p-valor (p-value)** indica se a correlação observada é estatisticamente significativa:
 
-0.2 a 0.4: Fraca
+| Condição            | Interpretação                                          |
+|--------------------|--------------------------------------------------------|
+| p-valor < 0.05      | Correlação **estatisticamente significativa**; provavelmente existe de fato. |
+| p-valor ≥ 0.05      | Correlação **não significativa**; pode ter ocorrido por acaso. |
 
-0.4 a 0.6: Moderada
+> ⚠️ Observação: mesmo correlações fracas podem ser significativas em grandes conjuntos de dados. Sempre avalie o valor de ρ junto com o p-valor para interpretar corretamente os resultados.
 
-0.6 a 0.8: Forte
-
-0.8 a 1.0: Muito forte
-
-P-valor (p-value): Este é o seu teste estatístico. Ele indica se a sua correlação encontrada é "real" ou se poderia ter acontecido por mero acaso.
-
-Se p-valor < 0.05: A correlação é estatisticamente significante. Você pode confiar que a relação que você encontrou nos seus dados provavelmente existe de verdade.
-
-Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A relação que você observou provavelmente aconteceu por acaso, e você não pode afirmar que ela exista.
+---
 
 ### 🔹 RQ05: Tamanho × Nº de Revisões
 📈 ![RQ05](./img/RQ05.png)   
