@@ -144,7 +144,7 @@ Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A rela
 ---
 
 ### 🔹 RQ06: Tempo de Análise × Nº de Revisões
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ06](./img/RQ06.png)  
 
 | Métrica       | Correlação | Teste Estatístico |
 |---------------|------------|-------------------|
@@ -153,7 +153,7 @@ Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A rela
 ---
 
 ### 🔹 RQ07: Descrição × Nº de Revisões
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ07](./img/RQ07.png)  
 
 | Métrica                | Correlação | Teste Estatístico |
 |-------------------------|------------|-------------------|
@@ -162,7 +162,7 @@ Se p-valor >= 0.05: A correlação NÃO é estatisticamente significante. A rela
 ---
 
 ### 🔹 RQ08: Interações × Nº de Revisões
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ08](./img/RQ08.png) 
 
 | Métrica       | Correlação | Teste Estatístico |
 |---------------|------------|-------------------|
