@@ -209,9 +209,3 @@ O **p-valor (p-value)** indica se a correlação observada é estatisticamente s
 
 ---
 
-## 🎯 Conclusão
-- Resumo das principais descobertas.  
-- Implicações para práticas de code review.  
-- Possíveis trabalhos futuros (ex.: análise em outras linguagens, mais métricas).  
-
----
