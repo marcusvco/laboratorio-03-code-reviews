@@ -73,13 +73,13 @@ As questões foram divididas em duas dimensões principais:
 ## 📊 Resultados
 
 ### 🔹 RQ01: Tamanho dos PRs × Feedback Final
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ01](./img/RQ01.png)  
 
 | Métrica       | Mediana (Aprovados) | Mediana (Rejeitados) |
 |---------------|----------------------|-----------------------|
-| Arquivos      |                      |                       |
-| Linhas +      |                      |                       |
-| Linhas -      |                      |                       |
+| Arquivos      |          2           |           1           |
+| Linhas +      |          19          |           16          |
+| Linhas -      |          5           |           2           |
 
 ---
 
