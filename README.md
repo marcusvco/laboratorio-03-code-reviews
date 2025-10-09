@@ -49,7 +49,7 @@ As questões foram divididas em duas dimensões principais:
 
 1. **Seleção de Repositórios**  
    - Repositórios populares: top **200 mais populares do GitHub**.  
-   - Critério mínimo: **100 PRs (MERGED + CLOSED)** por repositório.  
+   - Critério mínimo: **100 PRs (MERGED + CLOSED)** por repositório e limitamos para os primeiros 500 PRs.  
 
 2. **Seleção de Pull Requests**  
    - Considerados apenas PRs:  
