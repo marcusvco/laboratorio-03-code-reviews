@@ -84,11 +84,11 @@ As questões foram divididas em duas dimensões principais:
 ---
 
 ### 🔹 RQ02: Tempo de Análise × Feedback Final
-📈 *[Inserir gráfico aqui]*  
+📈 ![RQ02](./img/RQ02.png)   
 
 | Métrica       | Mediana (Aprovados) | Mediana (Rejeitados) |
 |---------------|----------------------|-----------------------|
-| Tempo (horas) |                      |                       |
+| Tempo (horas) |          3.9         |           44.7        |
 
 ---
 
