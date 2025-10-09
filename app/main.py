@@ -14,7 +14,7 @@ if not TOKEN:
 
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 API_URL = "https://api.github.com/graphql"
-TOTAL_REPOSITORIOS = 1
+TOTAL_REPOSITORIOS = 200
 
 # Query da Fase 1: Leve, apenas para filtrar
 PR_FILTER_QUERY = """
